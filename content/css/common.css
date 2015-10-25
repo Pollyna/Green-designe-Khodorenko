@@ -1,0 +1,730 @@
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    max-width: 1330px;
+  }
+  .header {
+    height: 70px;
+    background-color: #151515;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+  }
+  .logo-img {
+    margin: 12px 0 0 25px;
+    width: 226px;
+    height: 47px;
+    box-shadow: none;
+  }
+  /* ------------------------- menu ---------------------------- */
+  .level1 {
+    float: right;
+    white-space: nowrap;
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 25px 0 0;
+  }
+  ul .level2 {
+    z-index: 200;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  }
+  li {
+    display: inline-block;
+    margin: 15px 20px 10px;
+  }
+  li a {
+    display: block;
+    min-width: 60px;
+    height: 40px;
+    text-align: center;
+    line-height: 50px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  li:hover a {
+    text-decoration: none;
+    color: #51b105;
+    transform: scale(1.3);
+    transition-delay: 0s;
+  }
+  /* -----------Style for dropdown links-------------------------*/
+  li:hover ul a {
+    color: #fff;
+    height: 41px;
+    line-height: 40px;
+    position: relative;
+    left: -20px;
+  }
+  li:hover .level2 a:hover {
+    background: rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+  }
+  li .level2 {
+    display: none;
+  }
+  li .level2 li {
+    display: block;
+    float: none;
+  }
+  ul li a:hover + .level2,
+  .level2:hover {
+    display: block;
+  }
+  li .level2 li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+    text-align: left;
+    background: #000000;
+  }
+  /*----------------------banner----------------------------*/
+  .banner {
+    position: relative;
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 432px;
+  }
+  h1 {
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    font-size: 62px;
+    color: #ffffff;
+    position: absolute;
+    top: 40px;
+    left: 158px;
+    padding-bottom: 20px;
+  }
+  .banner p {
+    text-align: left;
+    position: absolute;
+    left: 158px;
+    top: 150px;
+    min-width: 300px;
+    max-width: 550px;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    padding-bottom: 20px;
+  }
+  a.portfolio {
+    width: 272px;
+    height: 60px;
+    display: block;
+    font-size: 24px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    color: #ffffff;
+    background-color: #51b105;
+    border: 1px solid #2f8f00;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    left: 158px;
+    position: absolute;
+    top: 300px;
+  }
+  /*-------------------------content---------------------------*/
+  main.content {
+    max-width: 980px;
+  }
+  .part1.row,
+  .part2.row,
+  .part3.row {
+    padding-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  article.web_design {
+    padding-top: 120px;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    font-size: 16px;
+    color: #8c8b8b;
+    text-align: center;
+    background-image: url("../images/web_designe_pictures.png");
+  }
+  article.e_commerce {
+    padding-top: 120px;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    font-size: 16px;
+    color: #8c8b8b;
+    text-align: center;
+    background-image: url("../images/e-comm-ban.png");
+  }
+  article.seo {
+    padding-top: 120px;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    font-size: 16px;
+    color: #8c8b8b;
+    text-align: center;
+    background-image: url("../images/seo-ban.png");
+  }
+  /*-------------------------part2-----------------------*/
+  .header_part2.row {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .beforeHeader,
+  .afterHeader {
+    width: 250px;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    margin-top: 0px;
+    width: 262px;
+    color: #ffffff;
+    background-color: #51b105;
+    padding: 5px;
+  }
+  img {
+    border: 0;
+    box-shadow: 1px 1px 1px 2px #d6d6d6;
+    margin-bottom: 50px;
+  }
+  figure.foto.col-md-4 {
+    height: auto;
+  }
+  p.quotes {
+    background: url("../images//quotes.png") no-repeat top left;
+    padding-top: 50px;
+    color: #8c8b8b;
+    text-align: center;
+    width: 600px;
+  }
+  /*---------------------part3------------------------------------*/
+  .tel {
+    background: url("../images/sprite.png") -160px 0;
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    position: relative;
+  }
+  .adress {
+    background: url("../images/sprite.png") -253px 0;
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    position: relative;
+  }
+  .email {
+    background: url("../images/sprite.png") -205px 0;
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    position: relative;
+  }
+  .tel p {
+    font-size: 18px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    color: #8c8b8b;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    width: 200px;
+  }
+  .adress p {
+    font-size: 18px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    color: #8c8b8b;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    width: 130px;
+    text-align: left;
+  }
+  .email p {
+    font-size: 18px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    color: #8c8b8b;
+    position: relative;
+    top: 5px;
+    left: 50px;
+  }
+  img.map {
+    margin-top: 20px;
+    margin-left: 0px;
+    box-shadow: none;
+  }
+  /*----------------------footer--------------------------*/
+  .footer {
+    height: 68px;
+    background-color: #a8a8a8;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer figure.logo {
+    float: right;
+  }
+  img {
+    display: inline;
+    margin: 10px 0px 10px 10px;
+    box-shadow: none;
+  }
+  figcaption.title {
+    position: absolute;
+    top: 26px;
+    left: 75px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  a.social {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -moz-transition: border-color 0.1s;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    border: 3px solid #ffffff;
+  }
+  a.social.fb {
+    background: url("../images/sprite.png") -11px 1px;
+    left: 20px;
+  }
+  a.social.tw {
+    background: url("../images/sprite.png") -50px 0px;
+    left: 30px;
+  }
+  a.social.pi {
+    background: url("../images/sprite.png") -89px 1px;
+    left: 40px;
+  }
+  a.social.vk {
+    background: url("../images/sprite.png") -164px 0px;
+    left: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .header {
+    height: 70px;
+    background-color: #151515;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+  }
+  nav.nav {
+    position: absolute;
+    top: 0px;
+    left: 350px;
+  }
+  li {
+    display: inline-block;
+    margin: 15px 5px 10px;
+  }
+  .banner.row {
+    position: relative;
+    background-image: url("../images//banner.png");
+    background-repeat: no-repeat;
+  }
+  h1 {
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    font-size: 48px;
+    color: #ffffff;
+    position: relative;
+    width: 400px;
+    top: 0px;
+    left: 50px;
+    display: inline-block;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  .banner p {
+    text-align: left;
+    position: absolute;
+    left: 255px;
+    top: 101px;
+    min-width: 300px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    padding-bottom: 20px;
+    margin-right: 790px;
+  }
+  a.portfolio {
+    font-size: 24px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    color: #ffffff;
+    max-width: 272px;
+    height: 42px;
+    display: block;
+    background-color: #51b105;
+    border: 1px solid #2f8f00;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    left: 378px;
+    top: 25px;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .beforeHeader,
+  .afterHeader {
+    display: none;
+  }
+  h2.header_part2,
+  h2.header_part3 {
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .part1.row,
+  .part2.row,
+  .part3.row {
+    padding-top: 0;
+  }
+  p.quotes {
+    max-width: 400px;
+  }
+  section.part2_content,
+  section.part3_content {
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer {
+    height: 68px;
+    background-color: #a8a8a8;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .header {
+    min-height: 70px;
+    background-color: #151515;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+  }
+  .logo-img {
+    margin-top: 12px;
+    width: 226px;
+    height: 47px;
+    box-shadow: none;
+  }
+  /*-------------MENU----------------------------*/
+  .nav {
+    position: absolute;
+    right: 0;
+    z-index: 10000;
+    float: right;
+  }
+  .nav ul {
+    width: 40px;
+    padding: 0;
+    background: #ffffff;
+    float: right;
+    top: -60px;
+    right: 15px;
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  .nav li {
+    display: none;
+    margin: 0;
+  }
+  ul.level2 {
+    display: none;
+    max-width: 130px;
+  }
+  li.button {
+    visibility: visible;
+  }
+  .nav li .2level a {
+    display: block;
+    padding: 5px 0px 5px 5px;
+    text-align: left;
+  }
+  .nav .button {
+    max-width: 50px;
+    background: #ffffff url("../images/Menu-icon.png") no-repeat 3px 0px;
+    background-size: 32px 32px;
+    display: block;
+  }
+  .nav a {
+    display: block;
+    padding: 5px 5px 5px 10px;
+    text-align: left;
+    color: #8c8b8b;
+  }
+  .nav .button a {
+    visibility: hidden;
+    background: none;
+    color: #8c8b8b;
+  }
+  /* при наведении на nav */
+  .nav ul:hover,
+  .nav ul:hover .button a {
+    visibility: visible;
+    background-image: none;
+    width: 100px;
+  }
+  .nav ul:hover li {
+    width: 100px;
+    background-image: none;
+    display: block;
+    margin: 0 0 5px;
+  }
+  li:hover ul a {
+    width: 100px;
+    color: #8c8b8b;
+    background-image: none;
+    position: relative;
+    left: 5px;
+  }
+  li:hover .level2 a:hover {
+    background: none;
+    width: 100px;
+  }
+  li .level2 {
+    display: none;
+  }
+  li .level2 li {
+    display: block;
+    float: none;
+  }
+  ul li a:hover + .level2,
+  .level2:hover {
+    display: block;
+    position: relative;
+    top: -10px;
+    left: -90px;
+    width: 100px;
+  }
+  li .level2 li a {
+    width: 100px;
+    text-align: left;
+  }
+  /*----------------------------banner-------------------------------*/
+  .banner.row {
+    position: relative;
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+  }
+  .part1.row {
+    padding-bottom: 0px;
+  }
+  h1 {
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .banner p {
+    visibility: hidden;
+    font-size: 0;
+  }
+  a.portfolio {
+    max-width: 272px;
+    height: 42px;
+    display: block;
+    font-size: 24px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    color: #ffffff;
+    background-color: #51b105;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  /*-----------------------------content---------------------------------*/
+  main.content {
+    max-width: 980px;
+  }
+  h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .col-md-4 p {
+    margin-top: 0;
+  }
+  article {
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    font-size: 16px;
+    color: #8c8b8b;
+    text-align: center;
+  }
+  /*----------------------------part2--------------------------------------*/
+  section.part2.row {
+    height: 100px;
+  }
+  .beforeHeader,
+  .afterHeader {
+    display: none;
+  }
+  h2.header_part2,
+  h2.header_part3 {
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  section.part2.row,
+  section.part3.row {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    margin-top: 0px;
+    min-width: 262px;
+    color: #ffffff;
+    background-color: #51b105;
+    padding: 5px;
+  }
+  section.part2_content {
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  .foto {
+    display: none;
+  }
+  p.quotes {
+    padding-left: 40px;
+    background: url("../images/quotes.png") no-repeat -5px -5px;
+    color: #8c8b8b;
+    text-align: center;
+    min-width: 250px;
+  }
+  /*--------------------part3---------------------------------------*/
+  .tel {
+    background: url("../images/sprite.png") -160px 0;
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    position: relative;
+  }
+  .adress {
+    background: url("../images/sprite.png") -253px 0;
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    position: relative;
+  }
+  .email {
+    background: url("../images/sprite.png") -206px 0;
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    position: relative;
+  }
+  .tel p {
+    font-size: 18px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    color: #8c8b8b;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    width: 200px;
+  }
+  .adress p {
+    font-size: 18px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    color: #8c8b8b;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    width: 130px;
+    text-align: left;
+  }
+  .email p {
+    font-size: 18px;
+    font-family: sans-serif, Myriad Pro Regular, leelawadee;
+    color: #8c8b8b;
+    position: relative;
+    top: 5px;
+    left: 50px;
+  }
+  img.map {
+    width: 25%;
+    max-width: 299px;
+    position: relative;
+    top: -50px;
+    float: right;
+    bottom: 79px;
+  }
+  .map:hover img.map {
+    transition-delay: 0s;
+    z-index: 300;
+    transform: scale(3);
+    transform-origin: 100% 100%;
+  }
+  /*----------------------------footer-----------------------------------*/
+  .footer {
+    height: 68px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #a8a8a8;
+  }
+  .footer img {
+    position: absolute;
+    left: -70px;
+    top: -45px;
+  }
+  .footer figcaption {
+    display: none;
+  }
+  a.social {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    -moz-transition: border-color 0.1s;
+    position: relative;
+    top: 15px;
+    border: 3px solid #ffffff;
+  }
+  a.social.fb {
+    background: url("../images/sprite.png") -11px 1px;
+    left: 20px;
+  }
+  a.social.tw {
+    background: url("../images/sprite.png") -50px 0px;
+    left: 30px;
+  }
+  a.social.pi {
+    background: url("../images/sprite.png") -89px 1px;
+    left: 40px;
+  }
+  a.social.vk {
+    background: url("../images/sprite.png") -164px 0px;
+    left: 50px;
+  }
+}
