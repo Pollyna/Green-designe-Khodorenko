@@ -1,0 +1,90 @@
+@media only  screen and (min-width: 768px) and ( max-width: 992px){
+	.header {
+		height: 70px;
+		background-color: @headerBGColor;
+		font-family: @fontBasic;
+	}
+	nav.nav {
+		position: absolute;
+		top: 0px;
+		left: 350px;
+	}
+	li {
+		display: inline-block;
+		margin: 15px 5px 10px;
+	}
+	.banner.row {
+		position: relative;
+		background-image: url("../images//banner.png");
+		background-repeat: no-repeat;
+	}
+	h1 {
+		font-family:@fontBasic;
+		font-size: 48px;
+		color: @fontWhite;
+		position: relative;
+		width: 400px;
+		top: 0px;
+		left:50px;
+		display: inline-block;
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+	.banner p {
+		text-align: left;
+		position: absolute;
+		left: 255px;
+		top: 101px;
+		min-width: 300px;
+		color:@fontWhite;
+		font-size: @fontSizeH2;
+		font-family: @fontBasic;
+		padding-bottom: 20px;
+		margin-right: 790px;
+	}
+	a.portfolio {
+		font-size: @fontSizeH2;
+		font-family: @fontBasic;
+		color:@fontWhite;
+		max-width: 272px;
+		height: 42px; 
+		display: block;
+		background-color: @brightGreen;
+		border: 1px solid @brightGreen - #222;
+		text-align: center;
+		text-decoration: none;
+		padding: 5px;
+		border-radius: 5px;
+		left: 378px;
+		top: 25px;
+		position: relative;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.beforeHeader,
+	.afterHeader {
+		display: none;
+	}
+	h2.header_part2, h2.header_part3 {
+		padding-left: 0;
+		padding-right: 0;
+		position: relative;
+		left: 50%;
+		transform: translate(-50%);
+	}
+	.part1.row, .part2.row, .part3.row {
+    	padding-top: 0;
+	}
+	p.quotes  {
+	    max-width: 400px;
+	}
+	section.part2_content, section.part3_content {
+		margin-bottom: 20px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.footer {
+		height: 68px;
+		background-color:@bodyFtColor;
+	}
+}
